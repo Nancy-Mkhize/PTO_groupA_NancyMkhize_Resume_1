@@ -1,0 +1,27 @@
+body {
+    
+    font-family: sans-serif;
+    color: black;
+  }
+
+  .div1{
+    background-color: #305774;
+    color: white;
+      height: 500px;
+      padding: 50px;
+      text-align: center;
+      box-sizing:border-box;
+
+  }
+
+  .img{
+border-radius: 50%
+;  
+}
+.menu{
+background-color: #5B6A92;
+padding: 10px;
+}
+.a{
+    color: white;
+}
