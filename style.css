@@ -2,6 +2,10 @@ body {
     
     font-family: sans-serif;
     color: black;
+    border-style: solid;
+    border-width: 3px;
+    border-color: black;
+    border-radius: 10px 10px 20px 30px;   
   }
 
   .div1{
@@ -15,13 +19,33 @@ body {
   }
 
   .img{
-border-radius: 50%
-;  
+    border-style: solid;
+    border-width: 2px;
+border-radius: 50%;  
 }
 .menu{
 background-color: #5B6A92;
-padding: 10px;
+padding-top: 40px;
+padding-bottom: 40px;
+padding-left: 30px ;
 }
-.a{
-    color: white;
+
+a {
+    color: purple;
+    padding-right: 40px;
+  }
+
+p{
+    margin-left: 30px;
+
 }
+
+li{
+    margin-left: 30px;
+
+}
+h1, h2, h3{
+    margin-left: 30px
+}
+
+
