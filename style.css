@@ -1,51 +1,184 @@
 body {
-    
-    font-family: sans-serif;
-    color: black;
-    border-style: solid;
-    border-width: 3px;
-    border-color: black;
-    border-radius: 10px 10px 20px 30px;   
-  }
 
-  .div1{
-    background-color: #305774;
-    color: white;
-      height: 500px;
-      padding: 50px;
-      text-align: center;
-      box-sizing:border-box;
-
-  }
-
-  .img{
-    border-style: solid;
-    border-width: 2px;
-border-radius: 50%;  
+  font-family: sans-serif;
+  color: black;
+  background-color: beige;
 }
-.menu{
-background-color: #5B6A92;
-padding-top: 40px;
-padding-bottom: 40px;
-padding-left: 30px ;
+.container {
+  position:relative;
+  width: 100%;
+  max-width: 1000px;
+  min-height: 1000px;
+  margin: 50px;
+  display: flex;
+}
+
+
+
+.column_left {
+  position:relative;
+background: #094e6d;
+padding: 40px;
+width: 50%;
+float: left;
+}
+
+.profile_text{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 20px;
+  border-bottom: 1px solid white;
+}
+
+.profile_text .imageBox{
+  position: relative;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50%;
+
+}
+.profile_text h2{
+
+  color: #ffffff;
+  font-size: 1.5em;
+  margin-top: 20px;
+  text-transform: uppercase;
+  text-align: center;
+  font-weight: 600;
+  line-height: 1.4em;;
+}
+
+.profile_text h2 span{
+  font-size: 0.8em;
+  font-weight: 300;
+  text-align: center;
+}
+
+.contactInfo{
+  padding-top: 48px;
+
+}
+.title{
+  color: #ffffff;
+  text-transform: uppercase;
+  font: weight 600px;
+  margin-bottom: 20px;
+}
+
+.contactInfo ul{
+
+  position: relative;
+}
+
+.contactInfo ul li{
+  position: relative;
+  list-style: none;
+  margin: 10px 0;
+  cursor: pointer;
+}
+.contactInfo ul li .icon{
+display: inline-block;
+width: 30px;
+font-size: 18px;
+color: rgb(10, 150, 150);
+
+}
+.contactInfo ul li span{
+color: #ffffff;
+font-weight: 300;
+}
+
+.contactInfo.education li{
+  margin-bottom: 15px;
+}
+.contactInfo.education h5{
+  color: aqua;
+  font-weight: 300px;
+}
+.contactInfo.education h4{
+color: #ffffff;
+font-weight:300;
+}
+
+.contactInfo.language .percent{
+  position: relative;
+  width: 100%;
+  height: 6px;
+  background-color: #000;
+  display: block;
+  margin-top: 5px;
+
+}
+.contactInfo.language .percent div{
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  background: aqua;
+
+}
+
+/*style the right column*/
+.column_right {
+
+  position:relative;
+background: #ffffff;
+padding: 40px;
+width: 50%;
+float: right;
+
+}
+
+.about{
+  margin-bottom: 50px;
+}
+.about:last-child{
+  margin-bottom: 0;
 }
 
 a {
-    color: purple;
-    padding-right: 40px;
-  }
+  color: purple;
+  padding-right: 40px;
+  margin-left: 30px;
+}
+.title2{
+  color: #094e6d;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  margin-bottom: 10px;
+}
 
-p{
-    margin-left: 30px;
+p {
+  margin-left: 30px;
+  color: #333;
+
+}
+/*create two columns within this box*/
+.about .box{
+  display: flex;
+  flex-direction: row;
+  margin: 20px 0;
+}
+.about .box .company_year{
+  min-width: 150px;
+}
+
+.about .box .company_year h5{
+text-transform: uppercase;
+color:#333;
+font-weight: 600;
+
 
 }
 
-li{
-    margin-left: 30px;
+li {
+  margin-left: 30px;
 
 }
-h1, h2, h3{
-    margin-left: 30px
+
+h1,
+h2,
+h3 {
+  margin-left: 30px
 }
-
-
